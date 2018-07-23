@@ -4,8 +4,8 @@ let driver = {
   car: 'Honda'
 };
 
-function updateDriverWithKeyAndValue(newObject, key, value) {
+function updateDriverWithKeyAndValue(object, key, value) {
   let newObject = {...driver};
-    newObject.[key] = value;
+    newObject[key] = value;
   };
 }
