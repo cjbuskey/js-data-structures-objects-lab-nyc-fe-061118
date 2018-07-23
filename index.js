@@ -1,10 +1,7 @@
 // Write your solution in this file!
-const driver = {
-  name: 'CJ',
-  car: 'Honda'
-};
+const driver = {};
 
-function updateDriverWithKeyAndValue(obj, key, value) {
+function updateDriverWithKeyAndValue(driver, key, value) {
   let newDriver = {...obj};
     newDriver[key] = value;
     return newObject;
