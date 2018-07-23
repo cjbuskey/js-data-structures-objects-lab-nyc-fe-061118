@@ -5,8 +5,7 @@ let driver = {
 };
 
 function updateDriverWithKeyAndValue(obj, key, value) {
-  let newObject = {...obj};
-    newObject[key] = value;
+  let newDriver = {...obj};
+    newDriver[key] = value;
     return newObject;
-  }
-}
+  };
